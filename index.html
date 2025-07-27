@@ -7,57 +7,55 @@
     <title>Your Local Time</title>
 </head>
 <style>
-        /* Reset & Smooth Appearance */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-        body {
-            height: 100vh;
-            background-color: #212121;
-            background-image: url('clock-bg.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            font-family: 'Segoe UI', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #ffffff;
-            overflow: hidden;
-        }
+    body {
+        height: 100vh;
+        background-color: #212121;
+        background-image: url(bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Segoe UI', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        overflow: hidden;
+    }
 
-        .center {
-            position: absolute;
-    top: 45%;              /* ✅ Pushes it lower on the page */
-    left: 38%;
-            text-align: center;
-            background: rgba(0, 0, 0, 0.4);
-            padding: 15px 30px;
-            
-        }
+    .center {
+        position: absolute;
+        top: 45%;
+        left: 38%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 15px 30px;
 
-        #clock {
-    text-shadow: 0 0 1px #00f0ff, 0 0 2px #00f0ff, 0 0 3px #00f0ff;
+    }
 
-            margin-top: 30px;
-            font-size: 3rem;
-            font-weight: 600;
-            padding: 10px 20px;
-            background: transparent;
-            color: whitesmoke;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgb(0, 207, 255);
-            transition: all 0.3s ease;
-        }
+    #clock {
+        text-shadow: 0 0 1px #00f0ff, 0 0 2px #00f0ff, 0 0 3px #00f0ff;
 
-        #clock:hover {
-            transform: scale(1.05);
-            box-shadow: 0 6px 30px rgb(0, 207, 255);
-        }
-    
+        margin-top: 30px;
+        font-size: 3rem;
+        font-weight: 600;
+        padding: 10px 20px;
+        background: transparent;
+        color: whitesmoke;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgb(0, 207, 255);
+        transition: all 0.3s ease;
+    }
+
+    #clock:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 30px rgb(0, 207, 255);
+    }
 </style>
 
 <body>
